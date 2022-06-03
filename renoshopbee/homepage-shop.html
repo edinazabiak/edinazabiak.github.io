@@ -1,0 +1,481 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Renoshopbee</title>
+	<link rel="icon" href="img/Fevicon.png" type="image/png">
+  <link rel="stylesheet" href="vendors/bootstrap/bootstrap.min.css">
+  <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="vendors/themify-icons/themify-icons.css">
+  <link rel="stylesheet" href="vendors/nice-select/nice-select.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.theme.default.min.css">
+  <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+
+  <!-- main stylesheet -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- fonts stylesheets -->
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400&family=Roboto&family=Raleway&display=swap" rel="stylesheet">  
+</head>
+
+<body>
+
+  <!-- Header, navigation part -->
+  <header class="header">
+    <div class="row align-items-center top-menu">
+
+      <div class="col-12 col-sm-7 availability">
+        <div>
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-telephone-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" d="M2.267.98a1.636 1.636 0 0 1 2.448.152l1.681 2.162c.309.396.418.913.296 1.4l-.513 2.053a.636.636 0 0 0 .167.604L8.65 9.654a.636.636 0 0 0 .604.167l2.052-.513a1.636 1.636 0 0 1 1.401.296l2.162 1.681c.777.604.849 1.753.153 2.448l-.97.97c-.693.693-1.73.998-2.697.658a17.47 17.47 0 0 1-6.571-4.144A17.47 17.47 0 0 1 .639 4.646c-.34-.967-.035-2.004.658-2.698l.97-.969z"/>
+        </svg>
+        +1 123 456 789</div>
+        <div>
+          <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-envelope-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+            <path fill-rule="evenodd" d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555zM0 4.697v7.104l5.803-3.558L0 4.697zM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757zm3.436-.586L16 11.801V4.697l-5.803 3.546z"/>
+          </svg>
+        info@company.com</div>
+      </div>
+
+      <div class="col-12 col-sm-5 col-auto social-media">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-behance"></i>
+      </div>
+    </div>
+
+    <div class="row menu">
+      <div class="col-4 col-lg-2 left-side">
+        <h1>Renoshop</h1>
+      </div>
+
+      <div class="col-lg-8 align-self-center navigation">
+        <nav class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link" href="homepage-shop.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Women</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Men</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Kids</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Jewellery</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Accessories</a>
+          </li>
+        </nav>
+      </div>
+  
+      <div class="col-8 col-lg-2 col-auto align-self-center right-side">
+          <div class="side-navigation">
+            <div>
+              <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+              <div class="cart-number">
+                <p>3</p>
+              </div>
+            </div>
+            <div class="search-field">
+              <i class="fas fa-search" onclick="displaySearch()"></i>
+              <form class="form-inline" id="searchdisplay">
+                <input class="form-control" type="Search" placeholder="Search..." aria-label="Search">
+              </form>
+            </div>
+          </div>
+
+          <nav class="navbar navbar-expand-lg navbar-light navbar-black">
+            <div>
+              <a href="shop-cart.html"><i class="fas fa-shopping-cart"></i></a>
+              <div class="cart-number">
+                <p>3</p>
+              </div>
+            </div>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="homepage-shop.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Women</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Men</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Kids</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Jewellery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Accessories</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search..." aria-label="Search">
+                <button class="btn my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+        </div>
+    </div>
+  </header>
+
+
+  <!-- Slider part -->
+  <section class="slider">
+    <div class="container">
+      <div class="row slider-content">
+        <div class="col-10 col-lg-6">
+          <h1>The best</h1>
+          <h1>Woocommerce</h1>
+          <h2>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+            eiusmod tempor incididunt ut labore et dolore magna aliqua.</h2>
+          <a href="shop-list-leftsidebar.html"><button class="btn">Buy Now</button></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Best seller part -->
+  <section class="container-fluid best-seller">
+    <div class="row align-items-center">
+      <div class="col-12 col-xl-3 best-seller-title">
+        <h2>Best sellers</h2>
+        <h3>The best productions from us</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+          eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-2 best-seller-products">
+        <div class="best-seller-img">
+          <img src="img/products.png">
+          <div class="icons-block">
+            <div class="car-icon"><i class="fas fa-shopping-cart"></i></div>
+            <div class="like-icon"><i class="fas fa-heart"></i></div>
+            <div class="retweet-icon"><i class="fas fa-retweet"></i></div>
+          </div>
+        </div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-2 best-seller-products">
+        <div class="best-seller-img">
+          <img src="img/products.png">
+          <div class="icons-block">
+            <div class="car-icon"><i class="fas fa-shopping-cart"></i></div>
+            <div class="like-icon"><i class="fas fa-heart"></i></div>
+            <div class="retweet-icon"><i class="fas fa-retweet"></i></div>
+          </div>
+        </div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-2 best-seller-products">
+        <div class="best-seller-img">
+          <img src="img/products.png">
+          <div class="icons-block">
+            <div class="car-icon"><i class="fas fa-shopping-cart"></i></div>
+            <div class="like-icon"><i class="fas fa-heart"></i></div>
+            <div class="retweet-icon"><i class="fas fa-retweet"></i></div>
+          </div>
+        </div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+      <div class="col-12 col-sm-6 col-xl-2 best-seller-products">
+        <div class="best-seller-img">
+          <img src="img/products.png">
+          <div class="icons-block">
+            <div class="car-icon"><i class="fas fa-shopping-cart"></i></div>
+            <div class="like-icon"><i class="fas fa-heart"></i></div>
+            <div class="retweet-icon"><i class="fas fa-retweet"></i></div>
+          </div>
+        </div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Static-blocks part -->
+  <section class="container-fluid static-blocks">
+    <div class="row row-cols-1">
+      <div class="col-12 col-sm-6 col-md properties">
+        <i class="fas fa-gem"></i>
+        <p class="properties-title">Special offers</p>
+        <p class="properties-text">Shop Big Save Big</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md properties">
+        <i class="fas fa-paper-plane"></i>
+        <p class="properties-title">Free delivery</p>
+        <p class="properties-text">On Orders Above $99</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md properties">
+        <i class="fas fa-retweet"></i>
+        <p class="properties-title">30 days return</p>
+        <p class="properties-text">Policy We Offers</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md properties">
+        <i class="fas fa-rocket"></i>
+        <p class="properties-title">Fastest shipping</p>
+        <p class="properties-text">2 Days Express</p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Categories part -->
+  <section class="container-fluid categories">
+    <div class="row">
+      <div class="col-12 col-md-4">
+        <div class="borders">
+          <div class="borders-text">
+            <p class="top-bottom-text">Fashion</p>
+            <p class="category-title">Summer&Autumn</p>
+            <p class="top-bottom-text">Winter collection</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4 light-bg">
+        <div class="borders">
+          <div class="borders-text">
+            <p class="top-bottom-text">Fashion for men</p>
+            <p class="category-title">30% off</p>
+            <p class="top-bottom-text">Winter collection</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-md-4">
+        <div class="borders">
+          <div class="borders-text">
+            <p class="top-bottom-text">Fashion</p>
+            <p class="category-title">New fashion styles</p>
+            <p class="top-bottom-text">Winter collection</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Products list part -->
+  <section class="container products-list">
+    <h1>Featured products</h1>
+    <h2 class="products-highlevel">Newest trends from top brands</h2>
+
+    <div class="row row-cols-5">
+      <div class="col-6 col-md-3 best-seller-products">
+        <div class="best-seller-img"><img src="img/products.png" class="img-fluid"></div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+      <div class="col-6 col-md-3 best-seller-products">
+        <div class="best-seller-img"><img src="img/products.png" class="img-fluid"></div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+      <div class="col-6 col-md-3 best-seller-products">
+        <div class="best-seller-img"><img src="img/products.png" class="img-fluid"></div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+      <div class="col-6 col-md-3 best-seller-products">
+        <div class="best-seller-img"><img src="img/products.png" class="img-fluid"></div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+      <div class="col-6 col-md-3 best-seller-products">
+        <div class="best-seller-img"><img src="img/products.png" class="img-fluid"></div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+      <div class="col-6 col-md-3 best-seller-products">
+        <div class="best-seller-img"><img src="img/products.png" class="img-fluid"></div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+      <div class="col-6 col-md-3 best-seller-products">
+        <div class="best-seller-img"><img src="img/products.png" class="img-fluid"></div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+      <div class="col-6 col-md-3 best-seller-products">
+        <div class="best-seller-img"><img src="img/products.png" class="img-fluid"></div>
+        <h2>Cruise Dual Analog</h2>
+        <h3 class="dollar-icon price-main-color">250.00</h3>
+        <p class="starRating"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="far fa-star"></i></p>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Clients part -->
+  <section class="container-fluid subscriber-clients">
+    <div class="row">
+      <div class="col-12 col-md-6 coupon">
+        <h1>Get Out Special Discount</h1>
+        <h2>Donec eu tristique felis. Duis augue mi, auctor ut purus et, dignissim aliquet quam. 
+          register your email for news and special offers</h2>
+        <form>
+          <input type="email" name="email-address" placeholder="E-mail address...">
+          <button type="button" name="get-coupon-now" class="btn">Get coupon now</button>
+        </form>
+      </div>
+      <div class="col-12 col-md-6 align-self-center brand-stickers">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-xl-3">
+            <img src="img/brand-logo-4a.png">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <img src="img/brand-logo-3a.png">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <img src="img/brand-logo-2a.png">
+          </div>
+          <div class="col-12 col-sm-6 col-xl-3">
+            <img src="img/brand-logo-1a.png">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <footer class="footer">
+    <div class="row social-connection">
+      <div class="col-12 col-sm-6 col-md-8 col-xl-8 social-connection-left">
+        <p>We're confident we've provided all the best for you. Stay connect with us.</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-xl-2 social-connection-right">        
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-linkedin-in"></i>
+        <i class="fab fa-behance"></i>
+      </div>
+      <div class="col-md-4"></div>
+    </div>
+
+    <div class="container bottom-navigation">
+      <div class="row">
+        <div class="col-12 col-sm-6 col-md-3">
+          <h2>Information</h2>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Delivery information</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Discount</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sitemap</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy policy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My account</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-md-3">
+          <h2>My account</h2>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign in</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">View cart</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">My wishlist</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Check out</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Track my order</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-md-3">
+          <h2>Help</h2>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link" href="#">F.A.Q.</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Shipping</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Privacy policy</a>
+            </li>
+          </ul>
+        </div>
+  
+        <div class="col-12 col-sm-6 col-md-3 contact-info">
+          <h2>Contact info</h2>
+          <p><i class="fas fa-globe-asia"></i>1234 Your Address, Country.</p>
+          <p><i class="fas fa-phone"></i>+1 234 5678 9999</p>
+          <p><i class="fas fa-envelope"></i><a href="mail@domain.com" type="email">mail@domain.com</a></p>
+        </div>
+      </div>
+    </div>
+    
+    <div class="row align-items-center sticky-footer">
+      <div class="col-6">
+        Copyright 2017 RenoshopBee all right reserved - Design by BeeStudios
+      </div>
+      <div class="col-6 cards-images">
+        <img src="img/visa5.png">
+        <img src="img/paypal11.png">
+        <img src="img/amazon3.png">
+        <img src="img/maestro1.png">
+        <img src="img/card34.png">
+      </div>
+    </div>
+  </footer>
+
+
+  <script src="vendors/jquery/jquery-3.2.1.min.js"></script>
+  <script src="vendors/bootstrap/bootstrap.bundle.min.js"></script>
+  <script src="vendors/skrollr.min.js"></script>
+  <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+  <script src="vendors/nice-select/jquery.nice-select.min.js"></script>
+  <script src="vendors/jquery.ajaxchimp.min.js"></script>
+  <script src="vendors/mail-script.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+</html>
